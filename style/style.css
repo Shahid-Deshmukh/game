@@ -59,14 +59,14 @@ img{
     border-radius: 1rem;
 }
 
-@media (max-width:735px)and (min-width:400px) {
+@media (max-width:735px)and (min-width:200px) {
  .choice{
     height:90px;
     width:90px;
     border-radius: 50%;
  }
- .choice:hover{
-    opacity: 0.75;
+ .choice:active{
+    opacity: 0.5;
  }
  img{
     height: 90px;
